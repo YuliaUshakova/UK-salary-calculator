@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <title>UKsalaryCalculator</title>
+</head>
+<body>
+   
+    <div id="container">
+        <h1>Salary Calculator UK</h1>
+
+         <form>
+            <p>Input your annual salary before Tax, £</p>
+            <input type="text" placeholder="annual gross" id="gross">
+
+            
+
+            <button id="btn">Calculate</button>
+            <br>
+            <button id="clear">Reset values</button>
+
+         </form>
+
+         <div id="showSalary">
+
+            <div id="monthlyBeforeTax">
+                <p>Your monthly salary before tax</p>
+                <span>£</span>
+                <span id="beforeTax"></span>
+               
+            </div>
+
+            
+            <div id="monthlyAfterTax">
+                <p>Your montly "take home" value</p>
+                <span>£</span>
+                <span id="afterTax"></span>
+            </div>
+
+            
+         </div>
+    </div>
+
+       <script src="script.js"></script>
+</body>
+</html>

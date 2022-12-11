@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1595654378985-92061e59a24d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW9uZXklMjB3YWxscGFwZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    }
+#container {
+    background-color:rgba(94, 97, 93, 0.9);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    border-radius: 20px;
+    color: white;
+    }    
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    }
+        
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #B87333;
+    align-self: center;
+    }
+
+p {
+    font-family: 'Lato', sans-serif;
+    color:black;
+    align-self: center;
+    }
+        
+input {
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+    }
+        
+#btn, #clear {
+    background-color: #B87333;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    }
+    #showSalary {
+        display: flex;
+        justify-content: space-around;
+        }
+    #monthlyBeforeTax, #monthlyAfterTax {
+        font-family: 'Lato', sans-serif;
+        background-color: #B87333;
+        color: black;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        }
+    
+    @media all and (max-width: 800px) {
+      #container {
+        width: 90%;
+        margin-left: 20px;
+        }
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
